@@ -16,28 +16,29 @@ Practicing compassionate code reviews is important (you can learn more from this
 ## Base Required Features 
 
 - Multi-Part Form:  
-  - [ ] Able to add feedback
-    - [ ] Data collected on individual pages & components
-    - [ ] Click on next takes you to the next page in sequence
-    - [ ] Data saves in DB after *all* the parts are completed (not piecemeal)
-    - [ ] Thank you page takes you back to the first view
-    - [ ] Old Data is cleared on form completion
+  - [X] Able to add feedback
+    - [X] Data collected on individual pages & components
+    - [X] Click on next takes you to the next page in sequence
+    - [X] Data saves in DB after *all* the parts are completed (not piecemeal)
+    - [X] Thank you page takes you back to the first view
+    - [/] Old Data is cleared on form completion
+      - Old Data is cleared not submit button but high five button 
 
 - Client code:
-  - [ ]  Individual components for each form part
-  - [ ]  Redux setup complete
-    - [ ] Store linked to react with `<Provider>`
-    - [ ] Store setup with reducer(s) and logger middleware 
-  - [ ] Reducers & Actions Working
+  - [X]  Individual components for each form part
+  - [X]  Redux setup complete
+    - [X] Store linked to react with `<Provider>`
+    - [X] Store setup with reducer(s) and logger middleware 
+  - [/] Reducers & Actions Working
     - [ ] Actions are in SCREAMING_SNAKE_CASE and semantically named
     - [ ] Actions have a `type` key, and `payload` if sending data
-    - [ ] Reducers are returning a new state, or the old state (not mutating)
-    - [ ] Reducers are using spread correctly (to keep old data, while adding new)
-  - [ ] Review Component shows at all times with current redux state
-  - [ ] React-Redux Working
-    - [ ] Dispatching actions onClick
-    - [ ] Grabbing data from the redux store with `useSelector`
-  - [ ] Axios POST request to add feedback
+    - [X] Reducers are returning a new state, or the old state (not mutating)
+    - [X] Reducers are using spread correctly (to keep old data, while adding new)
+  - [X] Review Component shows at all times with current redux state
+  - [X] React-Redux Working
+    - [X] Dispatching actions onClick
+    - [X] Grabbing data from the redux store with `useSelector`
+  - [X] Axios POST request to add feedback
 
 
 - Server code:   
@@ -48,16 +49,16 @@ Practicing compassionate code reviews is important (you can learn more from this
 Feedback should be provided for these items, but they do not impact scoring.
 
 - Git 
-  - [ ] Multiple git commits showing incremental progress
-  - [ ] Commits are descriptive of the changes made or feature added 
-  - [ ] Has .gitignore with node_modules
+  - [X] Multiple git commits showing incremental progress
+  - [X] Commits are descriptive of the changes made or feature added 
+  - [X] Has .gitignore with node_modules
   - [ ] Readme file updated (assuming this is previously discussed)
 - Code Style 
   - [ ] Appropriate amount of code comments
-  - [ ] Code is consistently formatted
+  - [X] Code is consistently formatted
 - Client
-  - [ ] Appropriate use of HTML tags
-  - [ ] Basic CSS styling with margins/padding
+  - [X] Appropriate use of HTML tags
+  - [X] Basic CSS styling with margins/padding
 
 
 ## Stretch Goals
